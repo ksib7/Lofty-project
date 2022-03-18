@@ -37,7 +37,6 @@ export default {
         method: "POST",
         body: new FormData(formElem),
       });
-
       let result = await response.json();
 
       alert("Данные успешно отправлены");
